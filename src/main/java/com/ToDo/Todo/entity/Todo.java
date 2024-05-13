@@ -27,6 +27,6 @@ public class Todo {
     @NonNull
     private String desc;
 
-    @CreatedDate //Annotation used to specify creation date for your Db and it is done so automatically by Spring Boot
+    @CreatedDate //Annotation used to specify creation date for your Db, it is done so automatically by Spring Boot
     Timestamp dateCreated;
 }
